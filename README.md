@@ -4,13 +4,17 @@ Models built to predict who have survived to the tragic sinking of the RMS Titan
 
 ---
 
-_Models tested:_
+
+## Models
 
 - **LogReg**: Logistic Regression. Features:  PClass, Sex, Sibsp.
 - **LogReg2**: Logistic Regression with polynomial feartures (degree =2). Features: PClass, Sex, Sibsp. 
 - **LogReg2+**: Logistic Regression with polynomial feartures (degree =2). Features: PClass, Sex, Age, Sibsp, Parch. 
 - **DTree**: Decision Tree.
 
+
+
+## Results
 A sumary of the results are presented at the table: 
 
 | Model       | Accurracy        |           | 
@@ -21,7 +25,8 @@ A sumary of the results are presented at the table:
 | LogReg2+      |  0.8305      | 0.78947 |
 | Decision Tree       | 0.8039  (avg)    | 0.74162 |
  
- 
+## Conclusions 
+
  I noted that:
 
 1. Looking at the coefficints at the LogReg model is a great way to infer which variables are more important to the predictions.
