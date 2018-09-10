@@ -1,6 +1,6 @@
 # titanic-kaggle
 
-Models built to predict who have survived to the tragic sinking of the RMS Titanic ship. 
+Models for predicting who have survived to the tragic sinking of the RMS Titanic ship. 
 
 - Kaggle competition: [titanic](https://www.kaggle.com/c/titanic); 
 - My  Kaggle profile: [elacerdajr](https://www.kaggle.com/elacerdajr/competitions). 
@@ -31,9 +31,8 @@ A sumary of the results are presented at the table:
 ## Conclusions 
 
  I noted that:
-
-1. Looking at the coefficints at the LogReg model is a great way to infer which variables are more important to the predictions.
-2. The accuracy is always lower for the test set, compeared to the trrain set.
-3. The Decision Tree model represented the higher difference between train and test sets.
-4. The LogReg2+ improved somehow the results compared to the LogReg2 and LogReg models, altough they are quite similar.
+ 1. Looking at the coefficients at the LogReg model is a great way to infer which variables are more important to the predictions.
+ 2. The accuracy is always lower for the test set, compered to the train set.
+ 3. The Decision Tree model represented the higher difference between train and test sets.
+ 4. The LogReg2+ improved somehow the results compared to the LogReg2 and LogReg models, although they are quite similar.
 
